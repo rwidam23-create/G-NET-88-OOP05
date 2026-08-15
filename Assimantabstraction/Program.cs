@@ -1,4 +1,6 @@
-﻿namespace Assimantabstraction
+﻿using Assimantabstraction.Interfaces;
+
+namespace Assimantabstraction
 {
     internal class Program
     {
@@ -29,6 +31,57 @@
             //yes
             #endregion
 
+            #endregion
+
+
+            #region part02
+            //Console.WriteLine("=====================================");
+            //Console.WriteLine("Delivery Center");
+            //Console.WriteLine("======================================");
+
+            //Console.WriteLine("Standard Shipment");
+            //Console.WriteLine();
+            //DeliveryAddress add = new DeliveryAddress("Cairo", "Elharam", 10);
+            //StandardShipment st=new StandardShipment("SH001","Laptop",3,80,add);
+            //st.PrintShipment();
+            //Console.WriteLine("------------------------------------------");
+            //Console.WriteLine("Express Shipment");
+            //Console.WriteLine();
+            //ExpressShipment ex = new ExpressShipment("SH002", "phone", 2, 60, add,30);
+            //ex.PrintShipment();
+            //Console.WriteLine("-------------------------------------------");
+            //InternationalShipment inter = new InternationalShipment("SH003", "Television", 8, 120, add, "Germany", 100);
+            //inter.PrintShipment();
+            //Console.WriteLine("==========================================");
+            //Console.WriteLine("Tracking Status");
+            //Console.WriteLine();
+            //ITrackable[] track ={
+            //    new StandardShipment("SH001","Laptop",3,80,add),
+            //    new ExpressShipment("SH002", "phone", 2, 60, add,30),
+            //    new InternationalShipment("SH003", "Television", 8, 120, add, "Germany", 100)
+            //};
+            //foreach(ITrackable tr in track)
+            //{
+            //    Console.WriteLine(tr.GetTrackingStatus());
+            //}
+            //Console.WriteLine("==============================================");
+            //Console.WriteLine("Insurance");
+            //Console.WriteLine();
+            //IInsurable[] insur =
+            //{
+            //     new StandardShipment("SH001","Laptop",3,80,add),
+            //    new ExpressShipment("SH002", "phone", 2, 60, add,30),
+            //    new InternationalShipment("SH003", "Television", 8, 120, add, "Germany", 100)
+            //};
+            //foreach (IInsurable ins in insur)
+            //{
+            //    Console.WriteLine(ins.CalculateInsurance());
+            //}
+
+            //Console.WriteLine("=====================================");
+            //Console.WriteLine("Interface Polymorphism Demonstrated Successfully.");
+            //Console.WriteLine("======================================");
+                
             #endregion
         }
     }
