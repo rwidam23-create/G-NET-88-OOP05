@@ -15,6 +15,21 @@
             #endregion
 
             #endregion
+
+            #region Question02
+            #region(a)
+            //interface:static Method/No fields/public only/implementation multiable interface/No constructor/Extention
+            //Abstract:concret Method/Have fielda/Any access modifier/inhertience/have constructor
+            #endregion
+            #region(b)
+            //when you have unrelated classes that need to guarantee a certain capability or behavior
+            #endregion
+            #region(c)
+            //No/because it One parent only
+            //yes
+            #endregion
+
+            #endregion
         }
     }
 }
